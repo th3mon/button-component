@@ -1,6 +1,8 @@
 import React from 'react';
 import './app.scss';
 
+import { Button } from './components';
+
 export function App() {
   return (
     <div className="app">
@@ -9,6 +11,10 @@ export function App() {
           Button Component
         </h1>
       </header>
+
+      <main>
+        <Button>button component default</Button>
+      </main>
     </div>
   );
 }
