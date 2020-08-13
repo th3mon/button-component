@@ -1,0 +1,13 @@
+@import './globals.scss';
+
+html,
+body {
+  font-family: $font-family;
+  font-size: 10px;
+
+  background-color: #f5f8f3;
+}
+
+button {
+  font-family: $font-family;
+}
