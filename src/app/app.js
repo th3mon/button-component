@@ -13,7 +13,7 @@ export function App() {
       </header>
 
       <main>
-        <Button>button component default</Button>
+        <Button>Default</Button>
       </main>
     </div>
   );
