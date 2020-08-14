@@ -17,7 +17,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint.css": "stylelint 'src/**/*.[s]css' --fix"
+    "lint.css": "stylelint 'src/**/*.[s]cs' --fix",
+    "lint.styled-components": "stylelint 'src/**/*.js[x]'"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -50,7 +51,9 @@
     "lint-staged": "^10.2.11",
     "stylelint": "^13.6.1",
     "stylelint-config-standard": "^20.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
     "stylelint-declaration-block-no-ignored-properties": "^2.3.0",
-    "stylelint-order": "^4.1.0"
+    "stylelint-order": "^4.1.0",
+    "stylelint-processor-styled-components": "^1.10.0"
   }
 }
